@@ -24,7 +24,7 @@ def caesar_coder(message, offset):
     return translated_message
 
 
-## With offset of 10 
+## (1) With offset of 10 and 14
 
 message_one = "jxu evviuj veh jxu iusedt cuiiqwu yi vekhjuud."
 # output of `decoder` for the first message with an offset of 10
@@ -37,7 +37,7 @@ print(decoder(message_two, 14))
 # performing multiple caesar ciphers to code your messages is even more secure!
 
 
-## With unknown shift value
+## (2) With unknown shift value
 
 message_three = "vhfinmxkl atox kxgwxkxw tee hy maxlx hew vbiaxkl tl hulhexmx. px'ee atox mh kxteer lmxi ni hnk ztfx by px ptgm mh dxxi hnk fxlltzxl ltyx."
 
